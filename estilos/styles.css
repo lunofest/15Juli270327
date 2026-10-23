@@ -23,12 +23,12 @@
 
 
     /* ------ colores body ----------- */
-    --color-body: #ffdbf6;
+    --color-body: #ffebfa;
 
 
     /* ---------- color titulo musica ----------- */
 
-    --color-titulo-music: #c62a66;
+    --color-titulo-music: #b9567c;
 
     /* ---------- color menu hamburguesa ----------- */
 
@@ -41,30 +41,30 @@
 
 
     /* ------ colores textos ----------- */
-    --color-titles: #c62a66;
-    --color-subtitles: #c62a66;
-    --color-parrafos: #c62a66;
+    --color-titles: #b9567c;
+    --color-subtitles: #b9567c;
+    --color-parrafos: #b9567c;
     --color-fuente-botones: #fff;
 
 
     /* ------ colores temporizador ----------- */
-    --color-numeros-temporizador: #c62a66;
-    --color-bordes-temporizador: #c62a66;
+    --color-numeros-temporizador: #b9567c;
+    --color-bordes-temporizador: #b9567c;
 
 
     /* ------ colores titulo fotos ----------- */
-    --color--titulos-fotos: #c62a66;
-    --color--subtitulos-fotos: #c62a66;
+    --color--titulos-fotos: #b9567c;
+    --color--subtitulos-fotos: #b9567c;
 
 
     /* ------ itinerario ----------- */
-    --color-fondo-tituloPrincipal: #c62a66;
+    --color-fondo-tituloPrincipal: #b9567c;
     --color-tituloPrincipal: #fff;
     --fondo-itinerario: #ffb0e1;
-    --titulo-itinerario: #c62a66;
-    --hora-itinerario: #c62a66;
+    --titulo-itinerario: #b9567c;
+    --hora-itinerario: #b9567c;
     --fondo-barra-progreso: #ffb0e1;
-    --avance-barra-progreso: #c62a66;
+    --avance-barra-progreso: #b9567c;
 
 
 
@@ -171,6 +171,7 @@ body::before {
     object-fit: cover;
     z-index: -1;
     background: linear-gradient(#ffffff27, #ffffff27, #ffffff0f);
+    
 }
 
 header {
@@ -183,6 +184,7 @@ header {
     background-size: cover;
     overflow: hidden;
     mask-image: linear-gradient(black 90%, transparent);
+    
 }
 
 .container {
@@ -424,6 +426,7 @@ header {
     height: 100%;
     object-fit: cover;
     z-index: -2;
+    opacity: .6;
 }
 
 /* ///////////////////////// NAME //////////////////////// */
@@ -1346,8 +1349,8 @@ header {
 
 .album__img {
     display: flex;
-    width: clamp(100px, 75%, 350px);
-    margin: 0 auto 2em;
+    width: clamp(100px, 35%, 250px);
+    margin: 0 auto 1em;
 }
 
 .parrafo--album {
@@ -1501,7 +1504,7 @@ header {
 
 
 .precio {
-    --fondo: #dd64c9;
+    --fondo: #ffc9f6;
     --color-texto: #ba1a87;
     --color-datos: #ffffff;
     --color-boton: #e2e2e2;
